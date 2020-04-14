@@ -132,7 +132,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">ZLK group</h3>
-              <div className="subheading mb-3">Cofounder & Lead Developer</div>
+              <div className="subheading mb-3">Cofounder &amp; Lead Developer</div>
               <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
               <p><b>Responsibilities:</b></p>
               <ul>
@@ -161,7 +161,7 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">MacEwan University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Networks & Security Track</div>
+              <div>Computer Science - Networks &amp; Security Track</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2017 - 2021</span>
