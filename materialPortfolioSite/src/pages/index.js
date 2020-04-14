@@ -293,6 +293,19 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
+
+      <hr className="m-0" />
+      
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="contact"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Contact Me</h2>
+          
+        </div>
+      </section>
+      
     </div>
   </Layout>
 );
