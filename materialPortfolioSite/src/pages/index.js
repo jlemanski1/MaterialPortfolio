@@ -45,10 +45,10 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
+        id="projects"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Projects</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -124,6 +124,34 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="experience"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Experience</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">ZLK group</h3>
+              <div className="subheading mb-3">Cofounder & Lead Developer</div>
+              <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
+              <p><b>Responsibilities:</b></p>
+              <ul>
+                <p>One</p>
+                <p>Two</p>
+              </ul>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">August 2006 - May 2010</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
       >
         <div className="w-100">
@@ -131,24 +159,12 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
+              <h3 className="mb-0">MacEwan University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <div>Computer Science - Networks & Security Track</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">August 2017 - 2021</span>
             </div>
           </div>
         </div>
