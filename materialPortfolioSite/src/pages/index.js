@@ -143,10 +143,28 @@ const IndexPage = () => (
               </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">September 2019 - Present</span>
             </div>
           </div>
 
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">GADEC</h3>
+              <div className="subheading mb-3">MacEwan University Game Development Club</div>
+              <div>
+                Worked with various teams consisting of writers, producers, designers, composers,
+                artists, and fellow developers to bring to life a new MVP bi-weekly, in a game jam-
+                like fashion, later choosing the best to flesh out over the following semester. 
+                <br/><br/>
+                I worked with different teams over the years to bring these projects starting with a
+                theme and constraint to life, before polishing and then presenting a demo of the 
+                respective games, at the Press A to Start conference/convention.
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Fall 2018 - Present</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -195,9 +213,6 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
@@ -211,12 +226,6 @@ const IndexPage = () => (
             </li>
             <li className="list-inline-item">
               <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
@@ -254,16 +263,16 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
+            Apart from developing and , I enjoy most of my time being
             outdoors. In the winter, I am an avid skier and novice ice climber.
             During the warmer months here in Colorado, I enjoy mountain biking,
             free climbing, and kayaking.
           </p>
           <p className="mb-0">
             When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            movies and television shows, I'm an aspiring chef, and I spend a
+            large amount of my free time building PCs exploring the latest tech trends &amp;
+            hardware releases.
           </p>
         </div>
       </section>
