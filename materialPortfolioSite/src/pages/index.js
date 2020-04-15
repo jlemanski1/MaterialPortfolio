@@ -46,16 +46,16 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        className="resume-section p-3 p-lg-5 d-flexgrow justify-content-center"
         id="projects"
       >
         <div className="w-100">
-          <h2 className="mb-5">Projects</h2>
+          <h2 className="mb-5">Personal Projects</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Title</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Tex</h3>
+              <div className="subheading mb-3">Tex</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
                 proactive domination. At the end of the day, going forward, a
@@ -66,14 +66,14 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">March 2013 - March 2038</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Title</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">ISS Tracker</h3>
+              <div className="subheading mb-3">ISS Tracker</div>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
                 added activity to beta test. Override the digital divide with
@@ -89,8 +89,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Title</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Social Beacon</h3>
+              <div className="subheading mb-3">Social Beacon</div>
               <p>
                 Podcasting operational change management inside of workflows to
                 establish a framework. Taking seamless key performance
@@ -106,8 +106,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Title</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">RNN Text &amp; Code Generator</h3>
+              <div className="subheading mb-3">Smart text generation using a recurrent neural network</div>
               <p>
                 Collaboratively administrate empowered markets via plug-and-play
                 networks. Dynamically procrastinate B2C users after installed
@@ -120,12 +120,13 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
       </section>
 
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-3 p-lg-5 d-flexgrow align-items-center"
         id="experience"
       >
         <div className="w-100">
@@ -154,11 +155,8 @@ const IndexPage = () => (
               <div>
                 Worked with various teams consisting of writers, producers, designers, composers,
                 artists, and fellow developers to bring to life a new MVP bi-weekly, in a game jam-
-                like fashion, later choosing the best to flesh out over the following semester. 
-                <br/><br/>
-                I worked with different teams over the years to bring these projects starting with a
-                theme and constraint to life, before polishing and then presenting a demo of the 
-                respective games, at the Press A to Start conference/convention.
+                like fashion, later choosing the best to flesh out over the following semester. The 
+                game was then presented and playable at Press A to Start, a local conference/convention.
               </div>
             </div>
             <div className="resume-date text-md-right">
@@ -166,6 +164,19 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Freelance Web Development &amp; Design</h3>
+              <div className="subheading mb-3">text</div>
+              <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
+              <p><b>Responsibilities:</b></p>
+              
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2019 - Present</span>
+            </div>
+          </div>
       </section>
 
       <hr className="m-0" />
