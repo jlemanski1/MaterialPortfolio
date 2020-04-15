@@ -23,10 +23,12 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          I aim to create beautiful web &amp; mobile experiences for the next 
+          generation of consumer-facing companies. I'm a third year Computer Science major
+          at MacEwan University who loves to build digital products and software solutions
+          in my spare time. Striving to join a team working on amazing software, I hope to be
+          able to contribute with my skills and ideas, while learning from the atmosphere &amp;
+          fellow team members. 
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,7 +54,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
+              <h3 className="mb-0">Title</h3>
               <div className="subheading mb-3">Intelitec Solutions</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
@@ -70,7 +72,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
+              <h3 className="mb-0">Title</h3>
               <div className="subheading mb-3">Intelitec Solutions</div>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
@@ -87,7 +89,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
+              <h3 className="mb-0">Title</h3>
               <div className="subheading mb-3">Shout! Media Productions</div>
               <p>
                 Podcasting operational change management inside of workflows to
@@ -104,7 +106,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
+              <h3 className="mb-0">Title</h3>
               <div className="subheading mb-3">Shout! Media Productions</div>
               <p>
                 Collaboratively administrate empowered markets via plug-and-play
@@ -136,8 +138,8 @@ const IndexPage = () => (
               <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
               <p><b>Responsibilities:</b></p>
               <ul>
-                <p>One</p>
-                <p>Two</p>
+                <p>Lorem</p>
+                <p>List em</p>
               </ul>
             </div>
             <div className="resume-date text-md-right">
