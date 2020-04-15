@@ -55,7 +55,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Tex</h3>
-              <div className="subheading mb-3">Tex</div>
+              <div className="subheading mb-3">Lightweight minimalist unix text editor</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
                 proactive domination. At the end of the day, going forward, a
@@ -73,7 +73,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">ISS Tracker</h3>
-              <div className="subheading mb-3">ISS Tracker</div>
+              <div className="subheading mb-3">Crossplatform ISS Tracking &amp; educational app</div>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
                 added activity to beta test. Override the digital divide with
@@ -90,7 +90,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Social Beacon</h3>
-              <div className="subheading mb-3">Social Beacon</div>
+              <div className="subheading mb-3">Instantly scaleable and fully featured, crossplatform social networking app</div>
               <p>
                 Podcasting operational change management inside of workflows to
                 establish a framework. Taking seamless key performance
@@ -120,6 +120,23 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">ezBMI</h3>
+              <div className="subheading mb-3">Crossplatform BMI &amp; BMR calculator app</div>
+              <p>
+                Capitalize on low hanging fruit to identify a ballpark value
+                added activity to beta test. Override the digital divide with
+                additional clickthroughs from DevOps. Nanotechnology immersion
+                along the information highway will close the loop on focusing
+                solely on the bottom line.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">December 2011 - March 2013</span>
+            </div>
+          </div>
 
       </section>
 
@@ -155,8 +172,11 @@ const IndexPage = () => (
               <div>
                 Worked with various teams consisting of writers, producers, designers, composers,
                 artists, and fellow developers to bring to life a new MVP bi-weekly, in a game jam-
-                like fashion, later choosing the best to flesh out over the following semester. The 
-                game was then presented and playable at Press A to Start, a local conference/convention.
+                like fashion, later choosing the best to flesh out over the following semester. 
+                <br/><br/>
+                I worked with different teams over the years to bring these projects starting with a
+                theme and constraint to life, before polishing and then presenting a demo of the 
+                respective games, at the Press A to Start conference/convention.
               </div>
             </div>
             <div className="resume-date text-md-right">
@@ -168,13 +188,19 @@ const IndexPage = () => (
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Freelance Web Development &amp; Design</h3>
-              <div className="subheading mb-3">text</div>
-              <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
-              <p><b>Responsibilities:</b></p>
-              
+              <div>
+                Leveraging my skills and spare time to commission bespoke web sites for customers across the globe.
+                Starting with a design tailored to suit the needs of the customer/end user, I then use the appropriate
+                technologies to bring that design to life, in a responsive, performant manner.
+              </div>
+              <p><b>Sites:</b></p>
+              <ul>
+                <p>One</p>
+                <p>Two</p>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2019 - Present</span>
+              <span className="text-primary">June 2019 - Present</span>
             </div>
           </div>
       </section>
