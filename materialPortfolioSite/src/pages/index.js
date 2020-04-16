@@ -65,8 +65,13 @@ const IndexPage = () => (
                 offshoring.
               </p>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right flex-column">
               <span className="text-primary">March 2013 - March 2038</span>
+              <ul className="list-inline project-icons">
+                <li className="list-inline-item">
+                  <a href="https://github.com/jlemanski1/Tex" className="fab fa-github"></a>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -82,8 +87,9 @@ const IndexPage = () => (
                 solely on the bottom line.
               </p>
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+            <div className="resume-date text-md-right flex-column">
+              <span className="text-primary">March 2013 - March 2038</span>
+              
             </div>
           </div>
 
