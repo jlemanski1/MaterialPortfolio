@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h1 className="mb-0">
             {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
+            <span className="text-primary d-flex">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
             {config.address} · {config.phone} ·
@@ -104,7 +104,7 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">RNN Text &amp; Code Generator</h3>
               <div className="subheading mb-3">Smart text generation using a recurrent neural network</div>
@@ -214,7 +214,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">MacEwan University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
