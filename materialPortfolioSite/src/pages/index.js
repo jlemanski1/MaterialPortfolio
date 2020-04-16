@@ -89,7 +89,12 @@ const IndexPage = () => (
             </div>
             <div className="resume-date text-md-right flex-column">
               <span className="text-primary">March 2013 - March 2038</span>
-              
+              <ul className="list-inline project-icons">
+                <li className="list-inline-item">
+                  <a href="https://github.com/jlemanski1/ISS-Tracker" className="fab fa-github"></a>
+                  <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.iss_tracker" className="fab fa-google-play"></a>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -105,8 +110,14 @@ const IndexPage = () => (
                 mentality to derive convergence on cross-platform integration.
               </p>
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+            <div className="resume-date text-md-right flex-column">
+              <span className="text-primary">March 2013 - March 2038</span>
+              <ul className="list-inline project-icons">
+                <li className="list-inline-item">
+                  <a href="https://github.com/jlemanski1/Social_Beacon" className="fab fa-github"></a>
+                  <a href="#" className="fab fa-google-play"></a>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -121,8 +132,13 @@ const IndexPage = () => (
                 convergence without revolutionary ROI.
               </p>
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+            <div className="resume-date text-md-right flex-column">
+              <span className="text-primary">March 2013 - March 2038</span>
+              <ul className="list-inline project-icons">
+                <li className="list-inline-item">
+                  <a href="https://github.com/jlemanski1/RNN_TextGenerator" className="fab fa-github"></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -139,8 +155,14 @@ const IndexPage = () => (
                 solely on the bottom line.
               </p>
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+            <div className="resume-date text-md-right flex-column">
+              <span className="text-primary">March 2013 - March 2038</span>
+              <ul className="list-inline project-icons">
+                <li className="list-inline-item">
+                  <a href="https://github.com/jlemanski1/BMI-Calculator" className="fab fa-github"></a>
+                  <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.bmi_calculator" className="fab fa-google-play"></a>
+                </li>
+              </ul>
             </div>
           </div>
 
