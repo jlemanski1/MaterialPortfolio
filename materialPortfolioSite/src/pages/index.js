@@ -66,7 +66,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2013 - March 2038</span>
+              <span className="text-primary">March 2019 - June 2019</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/Tex" className="fab fa-github"></a>
@@ -88,7 +88,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2013 - March 2038</span>
+              <span className="text-primary">July 2019 - Oct 2019</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/ISS-Tracker" className="fab fa-github"></a>
@@ -111,7 +111,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2013 - March 2038</span>
+              <span className="text-primary">Nov 2019 - Jan 2020</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/Social_Beacon" className="fab fa-github"></a>
@@ -133,7 +133,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2013 - March 2038</span>
+              <span className="text-primary">March 2020</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/RNN_TextGenerator" className="fab fa-github"></a>
@@ -156,7 +156,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2013 - March 2038</span>
+              <span className="text-primary">Nov 2019 - Feb 2020</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/BMI-Calculator" className="fab fa-github"></a>
@@ -242,14 +242,30 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Education</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">MacEwan University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science - Networks &amp; Security Track</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2017 - 2021</span>
+              <span className="text-primary">August 2017 - 2020</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Athabasca University</h3>
+              <div className="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Networks &amp; Security Track</div>
+              <p className="mt-3">
+                The Covid-19 pandemic led to a degraded quality of education from lectures to labs.
+                This pushed me to transfer to an online focused University to maintain the quality of
+                my education despite the ongoing global crisis.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2020 - 2021</span>
             </div>
           </div>
         </div>

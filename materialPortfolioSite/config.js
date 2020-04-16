@@ -20,10 +20,10 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/#',
+      url: 'https://www.linkedin.com/in/jonathan-lemanski-299474119/',
     },
     
   ],
-  email: 'lemanskij@mymacewan.ca',
+  email: 'jlemanski1@gmail.com',
   address: 'Edmonton, AB, Canada',
 };
