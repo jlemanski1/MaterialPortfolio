@@ -259,9 +259,8 @@ const IndexPage = () => (
               <div className="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science - Networks &amp; Security Track</div>
               <p className="mt-3">
-                The Covid-19 pandemic led to a degraded quality of education from lectures to labs.
-                This pushed me to transfer to an online focused University to maintain the quality of
-                my education despite the ongoing global crisis.
+                Due to a shortage of professors and increasingly smaller class sizes, I transferred universities
+                to maintain the quality of educaion and to avoid delaying my graduation timeline.
               </p>
             </div>
             <div className="resume-date text-md-right">
