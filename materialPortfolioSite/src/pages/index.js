@@ -279,11 +279,15 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Skills</h2>
-
+          
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
+
           <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <div className="subheading">Web/PWA:</div>
+            </li>
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
             </li>
@@ -300,16 +304,28 @@ const IndexPage = () => (
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
+              <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-less"></i>
+              <i className="fab fa-bootstrap"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-wordpress"></i>
             </li>
+          </ul>
+
+          <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
+              <div className="subheading">Mobile Apps:</div>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-java"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-android-studio"></i>
             </li>
           </ul>
 
