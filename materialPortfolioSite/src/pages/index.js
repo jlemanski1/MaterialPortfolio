@@ -325,7 +325,19 @@ const IndexPage = () => (
               <i className="fab fa-java"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-android-studio"></i>
+              <i className="fab fa-android"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-apple"></i>
+            </li>
+          </ul>
+
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <div className="subheading">Game Dev:</div>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-"></i>
             </li>
           </ul>
 
@@ -333,7 +345,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Mobile-First, Responsive, &amp; Accessible Design
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
