@@ -198,13 +198,15 @@ const IndexPage = () => (
               <h3 className="mb-0">GADEC</h3>
               <div className="subheading mb-3">MacEwan University Game Development Club</div>
               <div>
-                Worked with various teams consisting of writers, producers, designers, composers,
-                artists, and fellow developers to bring to life a new MVP bi-weekly, in a game jam-
-                like fashion, later choosing the best to flesh out over the following semester. 
+                I worked with various teams consisting of writers, producers, designers, composers,
+                artists, and fellow developers to bring a randomly selected constraint and theme to 
+                life, in a video game format (although we did occasionaly create board games). 
+                Working in bi-weekly sprints, we would come together to form an idea with what's provided,
+                and produce a demo or MVP of sorts to present to the other teams.
                 <br/><br/>
-                I worked with different teams over the years to bring these projects starting with a
-                theme and constraint to life, before polishing and then presenting a demo of the 
-                respective games, at the Press A to Start conference/convention.
+                The following semester of each year consisted of taking the team's favourite project, further
+                fleshing it out with new features, art, QA, and general polish all around. The respective games
+                each year were then presented and demoed at the Press A to Start conference/convention.
               </div>
             </div>
             <div className="resume-date text-md-right">
@@ -279,6 +281,19 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Skills</h2>
           
+          <div className="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum diam, 
+            malesuada a semper id, vehicula quis massa. Fusce ultrices malesuada varius. Fusce 
+            volutpat mauris at varius pulvinar. Curabitur porta sodales lectus, eu sodales risus 
+            aliquet ut. Pellentesque lacinia facilisis libero, vel tincidunt nunc ullamcorper eu. 
+            Etiam pharetra tellus at laoreet consequat. Fusce quis tincidunt tortor. Morbi maximus 
+            lobortis dolor, et sollicitudin leo tincidunt eu. Sed sit amet pretium ex, a blandit magna.
+            Phasellus quam elit, vehicula ut quam ac, feugiat dictum tortor. Aenean sapien nulla,
+            tincidunt eget maximus venenatis, accumsan vel libero. Sed sit amet orci ac mauris tempus
+            tincidunt. Nunc efficitur dapibus velit quis ullamcorper. Curabitur ultricies feugiat lacus
+            et facilisis.
+          </div>
+
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
@@ -370,18 +385,16 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
-          <p>
-            Apart from developing and , I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I'm an aspiring chef, and I spend a
-            large amount of my free time building PCs exploring the latest tech trends &amp;
-            hardware releases.
-          </p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum diam, 
+            malesuada a semper id, vehicula quis massa. Fusce ultrices malesuada varius. Fusce 
+            volutpat mauris at varius pulvinar. Curabitur porta sodales lectus, eu sodales risus 
+            aliquet ut. Pellentesque lacinia facilisis libero, vel tincidunt nunc ullamcorper eu. 
+            Etiam pharetra tellus at laoreet consequat. Fusce quis tincidunt tortor. Morbi maximus 
+            lobortis dolor, et sollicitudin leo tincidunt eu. Sed sit amet pretium ex, a blandit magna.
+            Phasellus quam elit, vehicula ut quam ac, feugiat dictum tortor. Aenean sapien nulla,
+            tincidunt eget maximus venenatis, accumsan vel libero. Sed sit amet orci ac mauris tempus
+            tincidunt. Nunc efficitur dapibus velit quis ullamcorper. Curabitur ultricies feugiat lacus
+            et facilisis.
         </div>
       </section>
 
