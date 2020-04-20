@@ -25,10 +25,10 @@ const IndexPage = () => (
           <p className="lead mb-5">
           I aim to create beautiful web &amp; mobile experiences for the next 
           generation of consumer-facing companies. I'm a third year Computer Science major
-          at MacEwan University who loves to build digital products and software solutions
+          at MacEwan University who loves to build digital products and games
           in my spare time. Striving to join a team working on amazing software, I hope to be
-          able to contribute with my skills and ideas, while learning from the atmosphere &amp;
-          fellow team members. 
+          able to contribute with both programming and communication skills, all the while gaining
+          more experience with advanced data structures and algorithms.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
