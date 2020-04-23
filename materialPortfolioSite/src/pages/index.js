@@ -385,27 +385,35 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Contact Me</h2>
+          <div className="subheading mb-3">Enter all that apply:</div>
         
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
-            <label>
-              Name
-              <input type="text" name="name" id="name" />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" id="email" />
-            </label>
-            <label>
-              Subject
-              <input type="text" name="subject" id="subject" />
-            </label>
-            <label>
-              Message
-              <textarea name="message" id="message" rows="5" />
-            </label>
-            <button type="submit">Send</button>
-            <input type="reset" value="Clear" />
+            <ul className="flex-outer">
+              <li>
+                <label className="subheading" for="first-name">Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name here"/>
+              </li>
+              <li>
+                <label className="subheading" for="last-name">Company</label>
+                <input type="text" id="last-name" placeholder="Enter your last name here"/>
+              </li>
+              <li>
+                <label className="subheading" for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email here"/>
+              </li>
+              <li>
+                <label className="subheading" for="phone">Subject</label>
+                <input type="tel" id="phone" placeholder="Enter your phone here"/>
+              </li>
+              <li>
+                <label className="subheading" for="message">Message</label>
+                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+              </li>
+              <li>
+                <button type="submit">Submit</button>
+              </li>
+            </ul>
           </form>
       
         </div>
