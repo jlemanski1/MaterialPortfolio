@@ -23,12 +23,12 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-          I aim to create beautiful web &amp; mobile experiences for the next 
-          generation of consumer-facing companies. I'm a third year computer science major
-          who loves to build digital products and games in my spare time. Striving to join 
-          a team working on amazing software, I hope to be able to contribute with both 
-          programming and communication skills, all the while gaining more experience with 
-          advanced data structures and algorithms.
+            I aim to create beautiful web &amp; mobile experiences for the next 
+            generation of consumer-facing companies. I'm a third year computer science major
+            who loves to build digital products and games in my spare time. Striving to join 
+            a team working on amazing software, I hope to be able to contribute with both 
+            programming and communication skills, all the while gaining more experience with 
+            advanced data structures and algorithms.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -179,12 +179,12 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">ZLK group</h3>
               <div className="subheading mb-3">Cofounder &amp; Lead Developer</div>
-              <div>Development, design, and marketing agency leveraging the latest tech and design trends to bring digital products to life.</div>
-              <p><b>Responsibilities:</b></p>
-              <ul>
-                <p>Lorem</p>
-                <p>List em</p>
-              </ul>
+              <div>
+                Development, design, and marketing agency leveraging the latest tech and design trends 
+                to bring digital products to life. Alongside leading the development charge on all our
+                mobile apps &amp; websites, I'm responsible for onboarding new contractors, writing 
+                support documentation and userguides for clients, as well as aiding in design.
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">September 2019 - Present</span>
@@ -221,11 +221,6 @@ const IndexPage = () => (
                 Starting with a design tailored to suit the needs of the customer/end user, I then use the appropriate
                 technologies to bring that design to life, in a responsive, performant manner.
               </div>
-              <p><b>Sites:</b></p>
-              <ul>
-                <p>One</p>
-                <p>Two</p>
-              </ul>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">June 2019 - Present</span>
