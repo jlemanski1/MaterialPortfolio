@@ -147,11 +147,10 @@ const IndexPage = () => (
               <h3 className="mb-0">ezBMI</h3>
               <div className="subheading mb-3">Crossplatform BMI &amp; BMR calculator app</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                BMI &amp; BMR calculator with a beautifully simple design, to easily check up on your health, and/or 
+                calculate your daily caloric intake. Users can feel safe knowing the app is noninvasive, collecting no user data,
+                and being fully opensource. This responsive, crossplatform app was created in Flutter with Dart, as an exercise to
+                implement a design I found online.
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
