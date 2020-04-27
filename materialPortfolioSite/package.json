@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-resume",
+  "name": "jlemanskitech-resume",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Resume by startbootstrap",
+  "description": "Material resume made with Gatsby JS",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-resume.git"
+    "url": "git+https://github.com/jlemanski1/MaterialPortfolio"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Jonathan Lemanski",
+    "email": "jlemanski1@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -45,7 +45,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-resume/issues"
+    "url": "https://github.com/jlemanski1/MaterialPortfolio/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-resume#readme"
+  "homepage": "https://github.com/jlemanski1/MaterialPortfolio#readme"
 }
