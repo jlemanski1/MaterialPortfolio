@@ -103,11 +103,10 @@ const IndexPage = () => (
               <h3 className="mb-0">Social Beacon</h3>
               <div className="subheading mb-3">Instantly scaleable and fully featured, crossplatform social networking app</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                Fully featured, secure, and scaleable, crossplatform social networking app. Implements all the features of 
+                large social networks such as Instagram, built on top of an intuitive, responsive UI. Leveraging Google Cloud 
+                Platform for user authentication, Cloud Firestore for image &amp; file storage, and Firebase for user accounts, and
+                databases, the app can be instantly scaled to millions of users.
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
