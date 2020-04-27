@@ -125,10 +125,10 @@ const IndexPage = () => (
               <h3 className="mb-0">RNN Text &amp; Code Generator</h3>
               <div className="subheading mb-3">Smart text generation using a recurrent neural network</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                Leveraging the power of Keras and Tensorflow, this script generates text using a recurrent
+                neural network. I designed this to be very flexible, working on any text source, ranging from scraped data,
+                sonnets, a novel, or even code. I've personally trained this network and generated text based on Shakespearan
+                sonnets, Star Wars movie scripts, and the linux kernel with great results.
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
