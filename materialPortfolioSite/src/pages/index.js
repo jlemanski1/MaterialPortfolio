@@ -57,12 +57,12 @@ const IndexPage = () => (
               <h3 className="mb-0">Tex</h3>
               <div className="subheading mb-3">Lightweight minimalist unix text editor</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Tex is a minimalist text editor for bash terminals, written in C, with zero dependencies.
+                I started this project after having to write a memory allocator and blockchain in C for a
+                course, and wanted to create something more usable in real world scenarios. Tex features 
+                all the typical features one expects from a text editor, with the addition of filetype 
+                detection with language based syntax highlighting, and robust searching all in a small 
+                opensource editor.
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
