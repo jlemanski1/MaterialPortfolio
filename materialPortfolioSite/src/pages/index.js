@@ -339,15 +339,6 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <div className="subheading">Game Dev:</div>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-"></i>
-            </li>
-          </ul>
-
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
