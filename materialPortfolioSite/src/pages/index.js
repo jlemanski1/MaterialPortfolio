@@ -80,11 +80,11 @@ const IndexPage = () => (
               <h3 className="mb-0">ISS Tracker</h3>
               <div className="subheading mb-3">Crossplatform ISS Tracking &amp; educational app</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                An app created with Flutter &amp; Dart to track the current location of the International 
+                Space Station (ISS), the next time in passes over the user, current crew information, as 
+                well as history about its creation, assembly, and some other facts. The app fetches the latest 
+                information about the crew and continuous location data for the tracking &amp; next pass features,
+                through one of NASA's API and presents it in a easy-to-digest manner for the user.
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
