@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-// import { Link } from 'gatsby';
+//import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 const IndexPage = () => (
@@ -275,89 +275,67 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
           
           <div className="mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum diam, 
-            malesuada a semper id, vehicula quis massa. Fusce ultrices malesuada varius. Fusce 
-            volutpat mauris at varius pulvinar. Curabitur porta sodales lectus, eu sodales risus 
-            aliquet ut. Pellentesque lacinia facilisis libero, vel tincidunt nunc ullamcorper eu. 
-            Etiam pharetra tellus at laoreet consequat. Fusce quis tincidunt tortor. Morbi maximus 
-            lobortis dolor, et sollicitudin leo tincidunt eu. Sed sit amet pretium ex, a blandit magna.
-            Phasellus quam elit, vehicula ut quam ac, feugiat dictum tortor. Aenean sapien nulla,
-            tincidunt eget maximus venenatis, accumsan vel libero. Sed sit amet orci ac mauris tempus
-            tincidunt. Nunc efficitur dapibus velit quis ullamcorper. Curabitur ultricies feugiat lacus
-            et facilisis.
+            Having gained experience working with a variety of teams with a varying tech stack, I've learned the importance
+            of having a well rounded soft skillset to compliment technical skills. Proper production and planning is instrumental
+            to work effectively with a team, stay organized, and keep a sharp attention on the details. In my eyes, developping these
+            skills is essential for efficient development and meaningful collaboration.
           </div>
 
-          <div className="subheading mb-3">
-            Programming Languages &amp; Tools
-          </div>
-
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <div className="subheading">Web/PWA:</div>
+          <ul className="list-inline">
+          <li className="list-inline-item">
+              <div className="subheading">Programming Languages:</div>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-bootstrap"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
+              <p>C, C++, Dart, Bash, Perl, PHP, Python, JavaScript</p>
             </li>
           </ul>
 
-          <ul className="list-inline dev-icons">
+          <ul className="list-inline">
+          <li className="list-inline-item">
+              <div className="subheading">Software Engineering:</div>
+            </li>
             <li className="list-inline-item">
+              <p>Agile development, Database architecture, Data strctures, Optimizing algorithms, Documentation</p>
+            </li>
+          </ul>
+
+          <ul className="list-inline">
+          <li className="list-inline-item">
+              <div className="subheading">Linux/Unix:</div>
+            </li>
+            <li className="list-inline-item">
+              <p>Network Security, Bash &amp; Perl scripting, Server administration</p>
+            </li>
+          </ul>
+          
+          <ul className="list-inline">
+            <li className="list-inline-item">
+              <div className="subheading">Web technologies &amp; Frameworks:</div>
+            </li>
+            <li className="list-inline-item">
+              <p>HTML5, CSS3.0, JS, GatsbyJS, React, Wordpress, AWS</p>
+            </li>
+          </ul>
+
+          <ul className="list-inline">
+          <li className="list-inline-item">
               <div className="subheading">Mobile Apps:</div>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-java"></i>
+              <p>Flutter, Native android &amp; iOS, PWA</p>
+            </li>
+          </ul>
+          
+          <ul className="list-inline">
+          <li className="list-inline-item">
+              <div className="subheading">Source Control &amp; Deployment:</div>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-android"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-apple"></i>
+              <p>Git, Perforce, Travis CI, Docker, Kubernetes</p>
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive, &amp; Accessible Design
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
-            </li>
-          </ul>
+          
         </div>
       </section>
 
