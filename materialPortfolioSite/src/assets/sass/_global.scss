@@ -108,3 +108,17 @@ p.lead {
   margin: 0 auto;
 }
 
+input {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
