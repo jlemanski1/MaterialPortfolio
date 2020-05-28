@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-//import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 const IndexPage = () => (
@@ -143,26 +143,49 @@ const IndexPage = () => (
         </div>
 
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">ezBMI</h3>
-              <div className="subheading mb-3">Crossplatform BMI &amp; BMR calculator app</div>
-              <p>
-                BMI &amp; BMR calculator with a beautifully simple design, to easily check up on your health, and/or 
-                calculate your daily caloric intake. Users can feel safe knowing the app is noninvasive, collecting no user data,
-                and being fully opensource. This responsive, crossplatform app was created in Flutter with Dart, as an exercise to
-                implement a design I found online.
-              </p>
-            </div>
-            <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">Nov 2019 - Feb 2020</span>
-              <ul className="list-inline project-icons">
-                <li className="list-inline-item">
-                  <a href="https://github.com/jlemanski1/BMI-Calculator" className="fab fa-github"></a>
-                  <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.bmi_calculator" className="fab fa-google-play"></a>
-                </li>
-              </ul>
-            </div>
+          <div className="resume-content">
+            <h3 className="mb-0">ezBMI</h3>
+            <div className="subheading mb-3">Crossplatform BMI &amp; BMR calculator app</div>
+            <p>
+              BMI &amp; BMR calculator with a beautifully simple design, to easily check up on your health, and/or 
+              calculate your daily caloric intake. Users can feel safe knowing the app is noninvasive, collecting no user data,
+              and being fully opensource. This responsive, crossplatform app was created in Flutter with Dart, as an exercise to
+              implement a different style of design.
+            </p>
           </div>
+          <div className="resume-date text-md-right flex-column">
+            <span className="text-primary">Nov 2019 - Feb 2020</span>
+            <ul className="list-inline project-icons">
+              <li className="list-inline-item">
+                <a href="https://github.com/jlemanski1/BMI-Calculator" className="fab fa-github"></a>
+                <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.bmi_calculator" className="fab fa-google-play"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+        <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-content">
+            <h3 className="mb-0">mkd-Editor</h3>
+            <div className="subheading mb-3">Realtime Collaborative Markdown Editor</div>
+            <p>
+              Realtime collaborative editor that aims to assist writing content in Markdown. From pretty-ing
+              up Github readmes, to writing copy for a JAMstack site, or simply your latest blog post, this project
+              makes it dead simple to spruce up your content. This project was realized using NodeJS for the backend,
+              Redis for in-memory database storage, and ShareJS to facilitate collaborative editing. 
+            </p>
+          </div>
+          <div className="resume-date text-md-right flex-column">
+            <span className="text-primary">May 2020</span>
+            <ul className="list-inline project-icons">
+              <li className="list-inline-item">
+                <a href="https://github.com/jlemanski1/MarkdownEditor" className="fab fa-github"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
 
       </section>
 
