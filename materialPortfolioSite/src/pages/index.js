@@ -66,7 +66,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">March 2019 - June 2019</span>
+              <span className="text-primary">March - June 2019</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/Tex" className="fab fa-github"></a>
@@ -88,7 +88,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">July 2019 - Oct 2019</span>
+              <span className="text-primary">July - October 2019</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/ISS-Tracker" className="fab fa-github"></a>
@@ -110,7 +110,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right flex-column">
-              <span className="text-primary">Nov 2019 - Jan 2020</span>
+              <span className="text-primary">Nov - January 2020</span>
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/Social_Beacon" className="fab fa-github"></a>
@@ -176,7 +176,7 @@ const IndexPage = () => (
             </p>
           </div>
           <div className="resume-date text-md-right flex-column">
-            <span className="text-primary">May 2020</span>
+            <span className="text-primary">May - June 2020</span>
             <ul className="list-inline project-icons">
               <li className="list-inline-item">
                 <a href="https://github.com/jlemanski1/MarkdownEditor" className="fab fa-github"></a>
