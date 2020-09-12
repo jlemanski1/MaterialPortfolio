@@ -28,7 +28,7 @@ const IndexPage = () => (
             who loves to build digital products and games in my spare time. Striving to join 
             a team working on amazing software, I hope to be able to contribute with both 
             programming and communication skills, all the while gaining more experience with 
-            advanced data structures and algorithms.
+            advanced data structures and algorithms in large codebases.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -318,7 +318,7 @@ const IndexPage = () => (
               <div className="subheading">Software Engineering:</div>
             </li>
             <li className="list-inline-item">
-              <p>Agile development, Database architecture, Data strctures, Optimizing algorithms, Documentation</p>
+              <p>Agile development, Database architecture, Data strctures, Algorithmn optimization, Technical writing</p>
             </li>
           </ul>
 
@@ -327,7 +327,7 @@ const IndexPage = () => (
               <div className="subheading">Linux/Unix:</div>
             </li>
             <li className="list-inline-item">
-              <p>Network Security, Bash &amp; Perl scripting, Server administration</p>
+              <p>Network Security, Bash &amp; Perl scripting, Unix server administration, LAMP</p>
             </li>
           </ul>
           
@@ -336,7 +336,7 @@ const IndexPage = () => (
               <div className="subheading">Web technologies &amp; Frameworks:</div>
             </li>
             <li className="list-inline-item">
-              <p>HTML5, CSS3.0, JS, GatsbyJS, React, Wordpress, AWS</p>
+              <p>HTML5, CSS3.0, JS, GatsbyJS, React, Wordpress, PWA, JAM Stack</p>
             </li>
           </ul>
 
@@ -345,7 +345,7 @@ const IndexPage = () => (
               <div className="subheading">Mobile Apps:</div>
             </li>
             <li className="list-inline-item">
-              <p>Flutter, Native android &amp; iOS, PWA</p>
+              <p>Flutter, Native android &amp; iOS</p>
             </li>
           </ul>
           

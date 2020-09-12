@@ -25,5 +25,5 @@ module.exports = {
     
   ],
   email: 'jlemanski1@gmail.com',
-  address: 'Edmonton, AB, Canada',
+  address: 'Victoria, BC, Canada',
 };
