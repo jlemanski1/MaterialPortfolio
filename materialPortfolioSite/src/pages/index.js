@@ -28,7 +28,7 @@ const IndexPage = () => (
             who loves to build digital products and games in my spare time. Striving to join 
             a team working on amazing software, I hope to be able to contribute with both 
             programming and communication skills, all the while gaining more experience with 
-            advanced data structures and algorithms.
+            advanced data structures and algorithms in large codebases.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
