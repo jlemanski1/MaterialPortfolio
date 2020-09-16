@@ -263,8 +263,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">MacEwan University</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Networks &amp; Security Track<br/>Minor in Psychology</div>
+              <div className="subheading mb-3">Bachelor of Arts</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2017 - 2020</span>
@@ -276,10 +275,6 @@ const IndexPage = () => (
               <h3 className="mb-0">Athabasca University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science - Networks &amp; Security Track<br/>Minor in Psychology</div>
-              <p className="mt-3">
-                Due to a shortage of professors and increasingly smaller class sizes, I transferred universities
-                to maintain the quality of educaion and to avoid delaying my graduation timeline.
-              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">2020 - 2021</span>
