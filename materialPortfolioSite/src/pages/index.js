@@ -375,7 +375,7 @@ const IndexPage = () => (
               <label for="email-address">Email Address</label>
               <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></input>
               <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <textarea rows="5" name="message" id="message" placeholder="Let me know how I can assist in the design and development of your next or current project. Thanks!" required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
             </fieldset>
             <input type="submit" value="Submit"></input>
