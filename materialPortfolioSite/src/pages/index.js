@@ -92,7 +92,7 @@ const IndexPage = () => (
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/ISS-Tracker" className="fab fa-github"></a>
-                  <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.iss_tracker" className="fab fa-google-play"></a>
+                  <a href="https://play.google.com/store/apps/details?id=tech.jlemanski.iss_tracker_v2" className="fab fa-google-play"></a>
                 </li>
               </ul>
             </div>
@@ -114,7 +114,6 @@ const IndexPage = () => (
               <ul className="list-inline project-icons">
                 <li className="list-inline-item">
                   <a href="https://github.com/jlemanski1/Social_Beacon" className="fab fa-github"></a>
-                  <a href="#" className="fab fa-google-play"></a>
                 </li>
               </ul>
             </div>
