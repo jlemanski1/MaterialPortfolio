@@ -199,6 +199,26 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Swift Ventures Inc.</h3>
+              <div className="subheading mb-3">Flutter Developer</div>
+              <div>
+                I was contracted by Swift Ventures to assist in the development of an upcoming mobile app 
+                (Name protected by NDA). Originally brought on to upgrade and port the app to a web app, 
+                they were quickly impressed and kept me on to assist with the development of the cross platform 
+                mobile application. I was responsible for everything from programming a web socket handler to 
+                implement push notifications and real time data streaming to the app, writing services to 
+                interact with Firebase and AWS server, to fine tuning and implementing UI elements. Working remotely, 
+                I took advantage of Slack, weekly standup meetings, and the agile development paradigm to ensure consistent 
+                and efficient communication with the rest of the team.
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2019 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">ZLK group</h3>
               <div className="subheading mb-3">Cofounder &amp; Lead Developer</div>
               <div>
@@ -209,7 +229,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2019 - Present</span>
+              <span className="text-primary">September 2019 - August 2020</span>
             </div>
           </div>
 
@@ -230,7 +250,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Fall 2018 - Present</span>
+              <span className="text-primary">September 2018 - January 2020</span>
             </div>
           </div>
         </div>
