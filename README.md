@@ -3,4 +3,4 @@
 # MaterialPortfolio
 Responsive one page portfolio site, with a functional material design
 
-[Jono L](https://jonol.tech)
+[Jono L](https://jonol.codes)
