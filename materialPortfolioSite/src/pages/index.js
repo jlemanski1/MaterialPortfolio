@@ -199,8 +199,23 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0"><a href="https://www.base1.com">BASE1</a></h3>
+              <div className="subheading mb-3">Mobile Developer</div>
+              <div>
+                BASE1 brought me on as a mobile developer to assist in the development of their main client's
+                enterprise Flutter mobile app with over 1 million monthly users. Alongside responsonsibilities developing the mobile product and services,
+                I also delved into developing and extending the Hybris backend along with various microservices.
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary"> Feb 2022 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Swift Ventures Inc.</h3>
-              <div className="subheading mb-3">Flutter Developer</div>
+              <div className="subheading mb-3">Mobile Developer</div>
               <div>
                 I was contracted by Swift Ventures to assist in the development of an upcoming mobile app 
                 (Name protected by NDA). Originally brought on to upgrade and port the app to a web app, 
@@ -265,7 +280,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">June 2019 - Present</span>
+              <span className="text-primary">June 2019 - Feb 2022</span>
             </div>
           </div>
       </section>
