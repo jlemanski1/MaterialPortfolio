@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import About from '../components/About';
 import ProjectSection from '../components/ProjectSection';
+import ContactForm from '../components/ContactForm';
 
 
 const IndexPage = ({pageContext: { pageData, menuData } }) => {
@@ -224,30 +225,7 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
 
       <hr className="m-0" />
       
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="contact"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Contact Me</h2>
-
-          <div className="subheading mb-3">Let me know about your company and/or project today!</div>
-
-          <form id="fs-frm" accept-charset="utf-8" action="https://formspree.io/mwkrpjwz" method="POST">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input type="text" name="name" id="full-name" placeholder="First and Last" required=""></input>
-              <label for="email-address">Email Address</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></input>
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Let me know how I can assist in the design and development of your next or current project. Thanks!" required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
-            </fieldset>
-            <input type="submit" value="Submit"></input>
-          </form>
-
-        </div>
-      </section>
+      <ContactForm fields={pageData.contact_form}/>
       
     </div>
   </Layout>

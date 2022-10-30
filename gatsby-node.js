@@ -55,6 +55,16 @@ exports.createPages = async ({ graphql, actions }) => {
             project_title
           }
         }
+        contact_form {
+            contact_subtitle
+            contact_title
+            form_field_email_help
+            form_field_email_title
+            form_field_message_help
+            form_field_message_title
+            form_field_name_help
+            form_field_name_title
+          }
       }
     }
   `);
