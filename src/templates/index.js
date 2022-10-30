@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import About from '../components/About';
 import ProjectSection from '../components/ProjectSection';
 import ContactForm from '../components/ContactForm';
+import SkillSection from '../components/SkillSection';
 
 
 const IndexPage = ({pageContext: { pageData, menuData } }) => {
@@ -14,6 +15,7 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
   <Layout>
     <Sidebar menuItems={menuItems}/>
     <div className="container-fluid p-0">
+
       <About fields={pageData.about_section}/>
 
       <hr className="m-0" />
@@ -151,77 +153,7 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
 
       <hr className="m-0" />
 
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="skills"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-          
-          <div className="mb-5">
-            Having gained experience working with a variety of teams with a varying tech stack, I've learned the importance
-            of having a well rounded soft skillset to compliment technical skills. Proper production and planning is instrumental
-            to work effectively with a team, stay organized, and keep a sharp attention on the details. In my eyes, developping these
-            skills is essential for efficient development and meaningful collaboration.
-          </div>
-
-          <ul className="list-inline">
-          <li className="list-inline-item">
-              <div className="subheading">Programming Languages:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>C, C++, Dart, Bash, Perl, PHP, Python, JavaScript</p>
-            </li>
-          </ul>
-
-          <ul className="list-inline">
-          <li className="list-inline-item">
-              <div className="subheading">Software Engineering:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>Agile development, Database architecture, Data strctures, Algorithmn optimization, Technical writing</p>
-            </li>
-          </ul>
-
-          <ul className="list-inline">
-          <li className="list-inline-item">
-              <div className="subheading">Linux/Unix:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>Network Security, Bash &amp; Perl scripting, Unix server administration, LAMP</p>
-            </li>
-          </ul>
-          
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <div className="subheading">Web technologies &amp; Frameworks:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>HTML5, CSS3.0, JS, GatsbyJS, React, Wordpress, PWA, JAM Stack</p>
-            </li>
-          </ul>
-
-          <ul className="list-inline">
-          <li className="list-inline-item">
-              <div className="subheading">Mobile Apps:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>Flutter, Native android &amp; iOS</p>
-            </li>
-          </ul>
-          
-          <ul className="list-inline">
-          <li className="list-inline-item">
-              <div className="subheading">Source Control &amp; Deployment:</div>
-            </li>
-            <li className="list-inline-item">
-              <p>Git, Perforce, Travis CI, Docker, Kubernetes</p>
-            </li>
-          </ul>
-
-          
-        </div>
-      </section>
+      <SkillSection fields={pageData.skill_section}/>
 
       <hr className="m-0" />
       

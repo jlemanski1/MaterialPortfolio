@@ -55,6 +55,15 @@ exports.createPages = async ({ graphql, actions }) => {
             project_title
           }
         }
+        skill_section {
+            skills_title
+            skills_subtitle
+            skill_type {
+                skill_title
+                skill_list
+            }
+            scroll_anchor_id
+        }
         contact_form {
             contact_subtitle
             contact_title
@@ -64,8 +73,9 @@ exports.createPages = async ({ graphql, actions }) => {
             form_field_message_title
             form_field_name_help
             form_field_name_title
+            scroll_anchor_id
           }
-      }
+        }
     }
   `);
 
