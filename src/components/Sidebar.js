@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import headShot from '../assets/images/HeadshotCropped.png';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -11,25 +11,43 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
+        { content: 'Projects', href: 'projects' },
         { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education' },
+        { content: 'Education', href: 'education'},
         { content: 'Skills', href: 'skills' },
-        { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
+        { content: 'Contact Me', href: 'contact' }
       ],
-      isCollapsed: true,
+      collapsed: true
     };
+
     this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.trackClick = this.trackClick.bind(this);
+  }
+
+  trackClick(e) {
+    const gtag = window && window.gtag;
+
+    if (gtag) {
+      gtag('event', 'sidebar-nav', {target: e.currentTarget.innerText});
+    } else {
+      console.log('Click tracking error');
+    }
   }
 
   toggleNavbar() {
     this.setState({
-      isCollapsed: !this.state.isCollapsed,
+      collapsed: !this.state.collapsed,
+      tabs: this.state.tabs
     });
   }
 
   render() {
-    const { tabs, isCollapsed } = this.state;
+
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+
+    const { tabs } = this.state;
     return (
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -42,17 +60,14 @@ export class Sidebar extends Component {
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
+              src={headShot}
               alt=""
             />
           </span>
         </a>
         <button
-          className={`navbar-toggler navbar-toggler-right ${
-            isCollapsed ? 'collapsed' : ''
-            }`}
+          className={`${classTwo}`}
           type="button"
-          data-toggle="collapse"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -60,8 +75,7 @@ export class Sidebar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
-          id="navbarSupportedContent">
+        <div className={`${classOne}`} id="navbarSupportedContent">
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="active"
