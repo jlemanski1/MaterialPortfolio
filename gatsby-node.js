@@ -67,6 +67,17 @@ exports.createPages = async ({ graphql, actions }) => {
               job_title
             }
         }
+        education_section {
+            section_title
+            section_subtitle
+            scroll_anchor_id
+            education_items {
+              education_item_certificate
+              education_item_date_range
+              education_item_description
+              education_item_title
+            }
+          }
         skill_section {
             skills_title
             skills_subtitle

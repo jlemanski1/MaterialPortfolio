@@ -7,6 +7,7 @@ import ProjectSection from '../components/ProjectSection';
 import ContactForm from '../components/ContactForm';
 import SkillSection from '../components/SkillSection';
 import ExperienceSection from '../components/ExperienceSection';
+import EducationSection from '../components/EducationSection';
 
 
 const IndexPage = ({pageContext: { pageData, menuData } }) => {
@@ -26,6 +27,10 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
       <hr className="m-0" />
 
       <ExperienceSection fields={pageData.experience_section}/>
+
+      <hr className="m-0" />
+
+      <EducationSection fields={pageData.education_section}/>
 
       <hr className="m-0" />
 
