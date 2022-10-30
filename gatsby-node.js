@@ -45,15 +45,27 @@ exports.createPages = async ({ graphql, actions }) => {
           section_subtitle
           section_title
           project_items {
-            project_date_range
-            project_description
-            project_github_url
-            project_live_url
-            project_playstore_url
-            project_appstore_url
-            project_subtitle
-            project_title
-          }
+                project_date_range
+                project_description
+                project_github_url
+                project_live_url
+                project_playstore_url
+                project_appstore_url
+                project_subtitle
+                project_title
+            }
+        }
+        experience_section {
+            scroll_anchor_id
+            section_subtitle
+            section_title
+            experience_items {
+              company_name
+              company_url
+              date_range
+              job_description
+              job_title
+            }
         }
         skill_section {
             skills_title
