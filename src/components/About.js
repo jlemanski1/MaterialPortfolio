@@ -1,11 +1,11 @@
-import * as React from "react"
+import * as React from 'react';
 import config from '../../config';
 
 const About = (props) => {
 
     return(
         <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+        className="resume-section p-3 p-lg-5 d-flex align-items-center" id={props.fields.scroll_anchor_id}>
         <div className="w-100">
           <h1 className="mb-0">
             {props.fields.first_name}

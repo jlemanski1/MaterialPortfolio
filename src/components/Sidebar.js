@@ -8,15 +8,10 @@ import config from '../../config';
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      tabs: [
-        { content: 'About', href: 'about' },
-        { content: 'Projects', href: 'projects' },
-        { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education'},
-        { content: 'Skills', href: 'skills' },
-        { content: 'Contact Me', href: 'contact' }
-      ],
+      tabs: 
+        props.menuItems.map(menuItem => ({content: menuItem.label, href: menuItem.url})),
       collapsed: true
     };
 

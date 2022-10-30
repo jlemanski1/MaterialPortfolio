@@ -3,19 +3,25 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import About from '../components/About';
+import ProjectSection from '../components/ProjectSection';
 
 
-const IndexPage = ({pageContext: { pageData } }) => {
-  const bodyElements = pageData.about_section;
-  console.log(`bodyElements: ${bodyElements}`);
-  
+const IndexPage = ({pageContext: { pageData, menuData } }) => {
+  const menuItems = menuData.data.butterCollection.value[0].menu_items;
+
+  console.log(`menuItems: ${menuItems}`);
+  var str = JSON.stringify(menuItems);
+  console.log(`str: ${str}`);
+
   return (
   <Layout>
-    <Sidebar />
+    <Sidebar menuItems={menuItems}/>
     <div className="container-fluid p-0">
       <About fields={pageData.about_section}/>
 
       <hr className="m-0" />
+
+      <ProjectSection fields={pageData.project_section}/>
 
       <section
         className="resume-section p-3 p-lg-5 d-flexgrow justify-content-center"
