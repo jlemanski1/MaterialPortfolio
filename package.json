@@ -1,23 +1,14 @@
 {
   "name": "material-portfolio-jonathan-lemanski",
   "version": "2.0.0",
-  "description": "Material Design Portfolio",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-resume.git"
-  },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
-  },
   "dependencies": {
-    "gatsby": "^4.2.0",
+    "gatsby": "^4.24.5",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-offline": "^5.2.0",
     "gatsby-plugin-react-helmet": "^5.2.0",
     "gatsby-plugin-sass": "^5.2.0",
     "gatsby-source-buttercms": "^2.2.6",
-    "node-sass": "^7.0.0",
+    "node-sass": "^7.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
@@ -38,15 +29,6 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2"
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-resume"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-resume/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-resume#readme"
+  }
+
 }
