@@ -3,7 +3,6 @@ import * as React from 'react';
 
 const Experience = (props) => {
     let linkUrl = props.company_url.length !== 0;
-    console.log(`linkUrl: ${linkUrl}, url: ${props.company_url}`);
     return (
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
