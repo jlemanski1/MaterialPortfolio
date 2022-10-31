@@ -3,4 +3,6 @@
 # MaterialPortfolio
 Responsive one page portfolio site, with a functional material design
 
-[Jono L](https://jonol.codes)
+Created with GatsbyJS, content powered by ButterCMS and CI/CD/hosting powered by Netlify.
+
+[Jono L](https://jonol.tech)
