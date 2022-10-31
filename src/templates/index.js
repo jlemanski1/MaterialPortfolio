@@ -8,6 +8,7 @@ import ContactForm from '../components/ContactForm';
 import SkillSection from '../components/SkillSection';
 import ExperienceSection from '../components/ExperienceSection';
 import EducationSection from '../components/EducationSection';
+import Footer from '../components/Footer';
 
 
 const IndexPage = ({pageContext: { pageData, menuData } }) => {
@@ -40,6 +41,7 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
       
       <ContactForm fields={pageData.contact_form}/>
       
+      <Footer/>
     </div>
   </Layout>
 );

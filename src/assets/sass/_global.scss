@@ -101,6 +101,22 @@ p.lead {
 }
 
 
+footer {
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  background-color: $white;
+  .attribution {
+    color: $black;
+    font-size: 0.8rem;
+  }
+  .attributionImage {
+    max-width: 25%;
+  }
+}
+
+
 /* Contact Form Styling */
 .container {
   width: 80%;
@@ -122,3 +138,4 @@ textarea {
   margin-left: 5%;
   margin-right: 5%;
 }
+
