@@ -46,13 +46,13 @@ my personal projects, open source contribution, professional experience, and ski
 
 <!-- ABOUT THE PROJECT -->
 
-##  About The Project
+#  About The Project
 
 The latest version of this web site was built on a GatsbyJS starter that I had used a few years ago to quickly spin up a portfolio site. As a mobile developer by day, I've been somewhat removed from all the latest and greatest in the JS ecosystem, so I decided to stick with what I had and build off of that. I refactored the the project and abstracted everything into components, and implemented ButterCMS to make adding content a breeze. It's now much more easily extensible which will be great for when I add a blog at a later date.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-###  Built With
+##  Built With
 [![Gatsby-Shield]][Gatsby-url]  [![React][React.js]][React-url] Front-end Framework
 
 [![SASS-Shield]][SASS-url] Styling
@@ -64,16 +64,28 @@ The latest version of this web site was built on a GatsbyJS starter that I had u
 
 <!-- GETTING STARTED -->
 
-##  Getting Started
+#  Getting Started
 To get a local copy up and running follow these simple example steps.
+
+## Codespace set up
+1. Get an API Key at [https://buttercms.com](https://buttercms.com)
+
+2. Add your API key to your github secrets with the key `BUTTER_CMS_API_KEY`
+
+3. [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=255473507&machine=basicLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
+
+4. Once `npm install` has finished running successfully, start the development server with `npm run develop`
+
+
+## Local Setup
 
 ###  Prerequisites
 **npm**
-	```sh
-	npm install npm@latest -g
-	```
+```sh
+npm install npm@latest -g
+```
 
-###  Set up
+### Set up
 1. Get an API Key at [https://buttercms.com](https://buttercms.com)
 
 2. Clone the repo and navigate to the directory
