@@ -67,13 +67,25 @@ The latest version of this web site was built on a GatsbyJS starter that I had u
 ##  Getting Started
 To get a local copy up and running follow these simple example steps.
 
-###  Prerequisites
+### Codespace set up
+1. Get an API Key at [https://buttercms.com](https://buttercms.com)
+
+2. Add your API key to your github secrets with the key `BUTTER_CMS_API_KEY`
+
+3. [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=255473507&machine=basicLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
+
+4. Once `npm install` has finished running successfully, start the development server with `npm run develop`
+
+
+### Local Setup
+
+####  Prerequisites
 **npm**
 	```sh
 	npm install npm@latest -g
 	```
 
-###  Set up
+#### Set up
 1. Get an API Key at [https://buttercms.com](https://buttercms.com)
 
 2. Clone the repo and navigate to the directory
