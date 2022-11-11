@@ -33,10 +33,6 @@ my personal projects, open source contribution, professional experience, and ski
 </li>
 <li>
 <a href="#getting-started">Getting Started</a>
-<ul>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#installation">Installation</a></li>
-</ul>
 </li>
 <li><a href="#contributing">Contributing</a></li>
 <li><a href="#license">License</a></li>
@@ -65,7 +61,6 @@ The latest version of this web site was built on a GatsbyJS starter that I had u
 <!-- GETTING STARTED -->
 
 #  Getting Started
-To get a local copy up and running follow these simple example steps.
 
 ## Codespace set up
 Get started with the project on a preconfigured cloud development environment
