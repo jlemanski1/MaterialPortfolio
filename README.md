@@ -68,6 +68,8 @@ The latest version of this web site was built on a GatsbyJS starter that I had u
 To get a local copy up and running follow these simple example steps.
 
 ## Codespace set up
+Get started with the project on a preconfigured cloud development environment
+
 1. Get an API Key at [https://buttercms.com](https://buttercms.com)
 
 2. Add your API key to your github secrets with the key `BUTTER_CMS_API_KEY`
@@ -78,6 +80,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 ## Local Setup
+Get started with the project on your local machine
 
 ###  Prerequisites
 **npm**
