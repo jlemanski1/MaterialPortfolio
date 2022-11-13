@@ -1,13 +1,12 @@
 module.exports = {
-  siteTitle: 'Jonathan Lemanski | Developer', // <title>
-  manifestName: 'Resume',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Blog | Jonathan Lemanski',
+  manifestName: 'Blog',
+  manifestShortName: 'Landing',
   manifestStartUrl: '/',
   manifestBackgroundColor: '#7002F2',
   manifestThemeColor: '#7002F2',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/website-icon.png',
-  //pathPrefix: ``, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Jonathan',
   lastName: 'Lemanski',
   // social

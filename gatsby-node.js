@@ -104,7 +104,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const menuItems = await graphql(`
   query {
-    butterCollection(key: {eq: "navigation_menu"}) {
+    butterCollection(key: {eq: "blog_navigation_menu"}, id: {}) {
       value {
         menu_items {
           label
@@ -114,6 +114,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   }
 `);
+
+
+
 
   // index
   createPage({
