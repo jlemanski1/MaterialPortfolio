@@ -8,10 +8,9 @@
 <div align="center">
 <a href="https://github.com/jlemanski1/MaterialPortfolio">
 </a>
-<h1 align="center">Portfolio Site</h1>
+<h1 align="center">Blog Site</h1>
 <p align="center">
-Responsive one page portfolio site, with a functional material design. This website is meant to be a display of
-my personal projects, open source contribution, professional experience, and skills in various tech stacks and domains.
+This branch houses the blog portion of my portfolio site.
 <br />
 <br />
 <a href="https://jonol.tech"><strong>View Live Site</strong></a>
@@ -44,7 +43,7 @@ my personal projects, open source contribution, professional experience, and ski
 
 #  About The Project
 
-The latest version of this web site was built on a GatsbyJS starter that I had used a few years ago to quickly spin up a portfolio site. As a mobile developer by day, I've been somewhat removed from all the latest and greatest in the JS ecosystem, so I decided to stick with what I had and build off of that. I refactored the the project and abstracted everything into components, and implemented ButterCMS to make adding content a breeze. It's now much more easily extensible which will be great for when I add a blog at a later date.
+GatsbyJS static site using ButterCMS for content, and webhooks to trigger new builds when new content is published.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

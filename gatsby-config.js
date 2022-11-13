@@ -6,7 +6,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
-    siteUrl: `https://www.jonol.tech`,
+    siteUrl: `https://www.blog.jonol.tech`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -30,12 +30,12 @@ module.exports = {
         authToken: process.env.BUTTER_CMS_API_KEY,
         // Optional Array of Collections
         contentFields: {
-          keys: [`navigation_menu`],
+          keys: [`navigation_menu`, `blog_navigation_menu`],
           // Optional. Set to 1 to enable test mode for viewing draft content.
           test: 0,
         },
         // Optional. Array of page slugs.
-        pages: [`resume`, `blog`],
+        pages: [`resume`, `blog`], // TODO: Remove
       },
     },
   ],
