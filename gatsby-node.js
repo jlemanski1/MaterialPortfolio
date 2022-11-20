@@ -17,6 +17,7 @@ exports.onCreatePage = ({ page, actions }) => {
   } else if (page.path === '/404/') {
     deletePage(page);
     if (!butterCmsApiKey) {
+      console.log(butterCmsApiKey)
       createPage({ ...page, component: require.resolve(`./src/404.js`)});
     } else {
       createPage(page);
@@ -117,9 +118,10 @@ exports.createPages = async ({ graphql, actions }) => {
 `);
 
 const blogPosts = await graphql(`
+query {
   allButterPost(
-    limit: 2
     sort: {order: DESC, fields: published}
+    limit: 2
   ) {
     nodes {
       title
@@ -129,6 +131,7 @@ const blogPosts = await graphql(`
       featured_image_alt
     }
   }
+}
 `
 );
 
@@ -175,9 +178,9 @@ query {
     path: `/`,
     component: require.resolve(`./src/templates/index.js`),
     context: {
-      pageData: resume.data.butterPage,
+      //pageData: resume.data.butterPage,
       menuData: menuItems,
-      allBlogPosts: allBlogPosts(),
+      blogPosts: allBlogPosts(),
     },
   });
 }

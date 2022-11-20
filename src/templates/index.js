@@ -2,18 +2,25 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import BlogPostList from '../components/BlogPostList';
 
 
-const IndexPage = ({pageContext: { pageData, menuData } }) => {
+const IndexPage = ({pageContext: { menuData, blogPosts } }) => {
   const menuItems = menuData.data.butterCollection.value[0].menu_items;
+  const posts = blogPosts.allButterPosts.nodes;
+
+  console.log(`blogPosts: ${blogPosts}`)
 
   return (
   <Layout>
     <Sidebar menuItems={menuItems}/>
     <div className="container-fluid p-0">
 
-      {/* <About fields={pageData.about_section}/>
-
+      {
+      <BlogPostList fields={posts}/>
+      
+      /* <About fields={pageData.about_section}/>
+      
       <hr className="m-0" />
 
       <ProjectSection fields={pageData.project_section}/>
@@ -35,9 +42,11 @@ const IndexPage = ({pageContext: { pageData, menuData } }) => {
       <ContactForm fields={pageData.contact_form}/>
        
       <Footer/>
-      */}
+      */
+      }
     </div>
   </Layout>
 );
 };
+
 export default IndexPage;
